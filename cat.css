@@ -1,0 +1,54 @@
+body 
+{ 
+height:100%;
+background:url("giphy.gif"), linear-gradient( #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+//background-size: cover;
+//background-repeat: no-repeat;
+}
+h1   
+{
+font-size: 600%; 
+color: white; 
+text-align: center;
+font-family:'Brush Script MT';
+text-shadow: 2px 2px gray;
+}
+h2
+{
+font-size: 300%; 
+color: white; 
+text-align: center;
+font-family:'Brush Script MT';
+text-shadow: 2px 2px gray;
+}
+.button {
+  display: block;
+  border-radius: 15px;
+  border: 2px solid white;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 5% auto;
+  cursor: pointer;
+  background-color: #5a4c67;
+}
+.button:hover {
+  background-color: white;
+  color: #5a4c67;
+}
+img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+#clock {
+  color: white;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
